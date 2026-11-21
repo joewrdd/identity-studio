@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+<symbol id="lab" viewBox="0 0 24 24"><path d="M8.1 16a5.9 5.9 0 1 1 7.9-7.9M16 8.1a5.9 5.9 0 0 1-7.9 7.9"/><path d="M3.4 16.4c-.8 1.6-.9 2.9-.3 3.5 1.5 1.5 6.5-.9 11.3-5.7s7.4-9.9 5.9-11.4c-.6-.6-1.9-.5-3.6.3"/><circle cx="12" cy="12" r="1.55"/></symbol>
+<symbol id="route" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="M8 5h8a4 4 0 1 1 0 8H8a3 3 0 0 0 0 6h8"/></symbol>
+<symbol id="book" viewBox="0 0 24 24"><path d="M12 6c-2-2-6-3-9-2v14c3-1 7 0 9 2 2-2 6-3 9-2V4c-3-1-7 0-9 2zm0 0v14"/></symbol>
+<symbol id="chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+<symbol id="calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M7.5 3v4m9-4v4m-13 3h17m-12 5h2m3 0h2"/></symbol>
+<symbol id="settings" viewBox="0 0 24 24"><path d="m10 3-.6 2.3-2 .9-2.2-1.1L3 9l1.8 1.6v2.8L3 15l2.2 3.9 2.2-1.1 2 .9L10 21h4l.6-2.3 2-.9 2.2 1.1L21 15l-1.8-1.6v-2.8L21 9l-2.2-3.9-2.2 1.1-2-.9L14 3z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="terminal" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="3"/><path d="m7 9 3 3-3 3m6 0h4"/></symbol>
+<symbol id="code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-2-15-4 18"/></symbol>
+<symbol id="key" viewBox="0 0 24 24"><path d="M14.5 3a6.5 6.5 0 0 0-6.2 8.5L3 16.8V21h4v-3h3v-3l1.6-1.6A6.5 6.5 0 1 0 14.5 3Z"/><circle cx="16.3" cy="7.7" r="1.3"/></symbol>
+<symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5l3 1.5"/></symbol>
+<symbol id="track-level" viewBox="0 0 24 24"><path d="M3.5 18.5h3.8a3 3 0 0 0 3-3v-3a3 3 0 0 1 3-3h3.4m0 0a2.2 2.2 0 1 0 4.4 0 2.2 2.2 0 0 0-4.4 0zM5.2 13v-2.8m0-2.9V5m8.8 13.5h5.8"/></symbol>
+<symbol id="lab-note" viewBox="0 0 24 24"><path d="M3.6 9.4 9.4 3.6m5.2 0 5.8 5.8m0 5.2-5.8 5.8m-5.2 0-5.8-5.8"/><path d="m12 8 4 4-4 4-4-4zM11.9 2.4h.2m-.2 19.2h.2"/></symbol>
+<symbol id="copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7z"/></symbol>
+<symbol id="target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="wallet" viewBox="0 0 24 24"><path d="M20 8V6a2 2 0 0 0-2-2l-12 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M4 8h14a2 2 0 0 1 2 2v1"/><path d="M21 11h-5a2.5 2.5 0 0 0 0 5h5zM16 13.5h.1"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 4.7 3.4 8 8 10 4.6-2 8-5.3 8-10V6z"/><path d="m8.5 12 2.3 2.4 4.7-5"/></symbol>
+<symbol id="link" viewBox="0 0 24 24"><path d="M10 13.5a4 4 0 0 0 5.7 0l4-4a4 4 0 0 0-5.7-5.7l-2.3 2.3m2.3 4.4a4 4 0 0 0-5.7 0l-4 4a4 4 0 0 0 5.7 5.7l2.3-2.3"/></symbol>
+<symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="drawer" viewBox="0 0 30 28">
+  <defs>
+    <linearGradient id="drawer-spine" x1="5" y1="5" x2="12" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b6f9d7" stop-opacity=".52"/><stop offset="1" stop-color="#75cbb0" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="drawer-leaf" x1="12" y1="5" x2="26" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4b1ff" stop-opacity=".30"/><stop offset="1" stop-color="#afedce" stop-opacity=".07"/>
+    </linearGradient>
+  </defs>
+  <path d="M11.3 4.4 7.5 5.7a4 4 0 0 0-2.8 3.8v9a4 4 0 0 0 2.8 3.8l3.8 1.3Z" fill="url(#drawer-spine)" stroke="#a9f3ca" stroke-width="1.25"/>
+  <path d="M14.8 5.2c1.8 1 4.4 2 7.1 2.4a3.8 3.8 0 0 1 3.4 3.8v5.2a3.8 3.8 0 0 1-3.4 3.8c-2.7.4-5.3 1.4-7.1 2.4" fill="url(#drawer-leaf)" stroke="#c5b2ff" stroke-width="1.25"/>
+  <path d="m17.9 11.2 3 2.8-3 2.8" stroke="#e9f9ef" stroke-width="1.4"/>
+</symbol>
+<symbol id="send-note" viewBox="0 0 24 24">
+  <path d="M10.8 4.2h5.7a4.3 4.3 0 0 1 4.3 4.3v2a4.3 4.3 0 0 1-4.3 4.3h-2.7l-3.4 2v-2a4.1 4.1 0 0 1-3.8-4.3v-2a4.3 4.3 0 0 1 4.2-4.3Z" fill="currentColor" fill-opacity=".15"/>
+  <path d="M12 9.5h.1m3.7 0h.1" stroke-width="2.2"/>
+  <path d="m2.7 15.8 2.4-1.4m.7 5.4 2.5-1.5" stroke-opacity=".72"/>
+</symbol>
+<symbol id="standard-volume" viewBox="0 0 42 38">
+  <path d="M6 9.5c0-1.9 1.5-3.4 3.4-3.4h19.5c1.9 0 3.5 1.6 3.5 3.5v20.8l-3.1 3.2H11.2A5.2 5.2 0 0 1 6 28.4z" fill="#131418" stroke="#727087" stroke-width="1.15"/>
+  <path d="M6.1 27.9c.4-2.1 2.3-3.6 4.4-3.6h20.3v6.2H10.4a2.2 2.2 0 0 1 0-4.4h17.1" stroke="#a9e8ca" stroke-opacity=".75" stroke-width="1.1"/>
+  <path d="M11 6.9v16.6m3.6-13.4h13.5m-13.5 3.3h7.3" stroke="#c8b9ef" stroke-opacity=".72" stroke-width="1.1"/>
+</symbol>
+</svg>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a0a0d"><meta name="description" content="Learn decentralized identity by building a Flutter wallet, one hands-on lab at a time.">
+<title>Identity Studio — Flutter Identity Lab</title>
+<link rel="icon" href="studio-mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/iceland-regular.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="companion.css"><link rel="stylesheet" href="home.css"><script defer src="lessons.js"></script><script defer src="home.js"></script><script defer src="app.js"></script><script defer src="companion.js"></script>
+</head>
+<body>
+<a class="skip" id="skip-link" href="#home-title">Skip to content</a>
+<div class="site-home" id="site-home">
+  <header class="home-header">
+    <div class="home-frame home-nav">
+      <a class="home-brand" href="#home"><img src="studio-mark.svg" alt="" width="40" height="40">Identity Studio</a>
+      <nav aria-label="On this page"><a href="#learn">The lab</a><a href="#curriculum">Curriculum</a><a href="#guide">Companion</a></nav>
+      <a class="home-link home-header-action" href="#lesson">Open workspace</a>
+    </div>
+  </header>
+  <main id="home-main">
+    <section class="home-hero home-frame" id="home" aria-labelledby="home-title">
+      <div class="home-hero-copy">
+        <p class="home-kicker"><span class="home-signal"></span> A hands-on Flutter course</p>
+        <h1 id="home-title" tabindex="-1">Build a wallet.<br>Understand<br class="home-desktop-break"> digital identity.</h1>
+        <p class="home-intro">Build a Flutter identity wallet from its first decentralized identifier to a complete credential exchange, one practical lab at a time.</p>
+        <div class="home-cta-row"><a class="home-link home-link-primary" href="#lesson/did">Start the first lab</a><a class="home-link home-link-quiet" href="#curriculum">Explore the course</a></div>
+        <p class="home-meta">8 practical labs <span></span> Dart + Flutter <span></span> Weekly pace</p>
+      </div>
+      <div class="home-visual home-visual-hero" data-tilt aria-hidden="true"><div class="home-orbit"></div><div class="home-scene scene-hero"></div></div>
+    </section>
+    <section class="home-section" id="learn" aria-labelledby="learn-title">
+      <div class="home-frame home-split home-lab">
+        <div class="home-section-copy">
+          <p class="home-kicker">The lab</p>
+          <h2 id="learn-title" tabindex="-1">Read it. Run it.<br>Build it into your wallet.</h2>
+          <p>Start with a concept, try it on a fixture, then take the next step in your Flutter project. Each lab gives you Dart starter code and an explained solution.</p>
+          <div class="home-console">
+            <div class="home-console-top"><span>Week 1 · DID parser</span><span>Dart</span></div>
+            <pre><code>parseDid(<span>'did:example:alice:wallet'</span>);</code></pre>
+            <div class="home-console-action"><button id="home-run" class="home-link home-link-quiet" type="button"><svg aria-hidden="true"><use href="icons.svg#play"/></svg>Run example</button><output id="home-result" aria-live="polite">Fixture output</output></div>
+          </div>
+        </div>
+        <div class="home-visual home-visual-lab" data-tilt aria-hidden="true"><div class="home-scene scene-lab"></div></div>
+      </div>
+    </section>
+    <section class="home-section" id="curriculum" aria-labelledby="curriculum-title">
+      <div class="home-frame home-split home-curriculum">
+        <div class="home-visual home-visual-curriculum" data-tilt aria-hidden="true"><div class="home-orbit"></div><div class="home-scene scene-curriculum"></div></div>
+        <div class="home-section-copy">
+          <p class="home-kicker">Curriculum</p>
+          <h2 id="curriculum-title" tabindex="-1">From a DID to a working wallet.</h2>
+          <p>Three phases, one project. Follow the weekly pace or preview any lab.</p>
+          <div class="home-phases" id="home-phases" aria-label="Course phases">
+            <button type="button" data-phase="identity" aria-pressed="true"><span>Identity</span><small>Weeks 1–2</small></button>
+            <button type="button" data-phase="wallet" aria-pressed="false"><span>Wallet</span><small>Weeks 3–4</small></button>
+            <button type="button" data-phase="exchange" aria-pressed="false"><span>Exchange</span><small>Weeks 5–8</small></button>
+          </div>
+          <div class="home-phase-detail" id="home-phase-detail" aria-live="polite"></div>
+          <a class="home-text-link" href="#roadmap">See the full roadmap</a>
+        </div>
+      </div>
+    </section>
+    <section class="home-section" id="guide" aria-labelledby="guide-title">
+      <div class="home-frame home-split home-guide">
+        <div class="home-section-copy">
+          <p class="home-kicker">Studio companion</p>
+          <h2 id="guide-title" tabindex="-1">A little help when you’re stuck.</h2>
+          <p>Ask for a recap, a coding hint, or a next step. The companion’s demo replies come from the lessons.</p>
+          <div class="home-chat-demo">
+            <p class="home-chat-reply" id="home-chat-reply" aria-live="polite">I can help you get started with a decentralized identifier.</p>
+            <div class="home-chat-options" id="home-chat-options" aria-label="Try a companion reply"><button type="button" data-demo="hint">Give me a hint</button><button type="button" data-demo="next">What comes next?</button></div>
+          </div>
+        </div>
+        <div class="home-visual home-visual-guide" data-tilt aria-hidden="true"><div class="home-scene scene-guide"></div></div>
+      </div>
+    </section>
+    <section class="home-section" id="start" aria-labelledby="start-title">
+      <div class="home-frame">
+        <div class="home-start">
+          <div><h2 id="start-title" tabindex="-1">Start with one identifier.</h2><p>Write a Dart parser and add your first identity model to a Flutter wallet.</p><a class="home-link home-link-primary" href="#lesson/did">Open the first lab</a></div>
+          <div class="home-start-art" data-tilt aria-hidden="true"><img class="home-start-mark" src="studio-mark.svg" alt="" width="190" height="190" loading="lazy"><img class="home-start-bot" src="companion.svg" alt="" width="120" height="112" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="home-footer"><div class="home-frame"><a class="home-brand" href="#home"><img src="studio-mark.svg" alt="" width="29" height="29">Identity Studio</a><nav aria-label="Site links"><a href="#standards">Standards</a><a href="#roadmap">Roadmap</a><a href="#lesson">Workspace</a></nav></div></footer>
+</div>
+<div class="shell" id="workspace-shell" hidden>
+<aside class="sidebar" id="sidebar" aria-label="Course navigation">
+<div class="sidebar-head"><a class="brand" href="#home"><img class="brand-icon" src="studio-mark.svg" alt="" width="44" height="44"><span>Identity Studio<small>Flutter learning lab</small></span></a>
+<button class="menu menu-close" id="menu-close" type="button" aria-label="Close navigation" aria-controls="sidebar"><svg aria-hidden="true"><use href="icons.svg#drawer"/></svg></button>
+</div>
+<div class="side-body">
+<p class="side-label">Workspace</p>
+<nav class="workspace" aria-label="Workspace">
+<a href="#lesson/did" data-view="lesson"><svg aria-hidden="true"><use href="icons.svg#lab"/></svg> Learning lab<svg class="side-end"><use href="icons.svg#chevron"/></svg></a>
+<a href="#roadmap" data-view="roadmap"><svg><use href="icons.svg#route"/></svg> Roadmap</a>
+<a href="#standards" data-view="standards"><svg><use href="icons.svg#book"/></svg> Standards</a>
+</nav>
+<p class="side-label track-label">Wallet build track</p>
+<nav class="track" id="track" aria-label="Wallet build track"></nav>
+</div>
+<div class="side-footer"><div class="progress-summary"><span>Your progress</span><strong id="progress-count">0 / 8</strong></div><div class="progress-bar" id="progress-bar" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0"><span id="progress-fill"></span></div><button class="profile" id="profile" type="button"><img class="profile-monogram" src="jw-monogram.svg" width="36" height="26" alt=""><span>Joe Ward<small id="profile-level">Builder track</small></span><svg class="side-end"><use href="icons.svg#settings"/></svg></button></div>
+</aside>
+<div class="scrim" id="scrim" hidden></div>
+<div class="body">
+<header class="topbar"><div class="breadcrumbs"><button class="menu" id="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar"><svg aria-hidden="true"><use href="icons.svg#drawer"/></svg></button><span class="top-icon" aria-hidden="true"><svg><use id="breadcrumb-icon" href="icons.svg#lab"/></svg></span><span id="crumb">Learning lab</span><svg class="crumb-chevron"><use href="icons.svg#chevron"/></svg><strong id="subcrumb">Current lesson</strong></div><div class="top-actions"><button id="schedule" type="button" class="schedule"><svg><use href="icons.svg#calendar"/></svg><span>Weekly cadence</span></button><button class="icon-btn" id="settings" type="button" aria-label="Learning preferences"><svg><use href="icons.svg#settings"/></svg></button></div></header>
+<main class="content" id="main" tabindex="-1"></main>
+<footer class="footer"><span>Identity Studio</span><a href="#standards">Standards and references</a></footer>
+</div>
+</div>
+<dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><form method="dialog"><button class="icon-btn" aria-label="Close"><svg><use href="icons.svg#close"/></svg></button></form></div><div id="dialog-body"></div></dialog>
+<aside class="companion" id="companion" aria-label="Lesson companion" hidden>
+  <div class="companion-nudge" id="companion-nudge" hidden>
+    <button class="companion-invite" id="companion-invite" type="button">Want a quick lesson hint?</button>
+    <button class="companion-dismiss" id="companion-dismiss" type="button" aria-label="Dismiss lesson companion message"><svg aria-hidden="true"><use href="icons.svg#close"/></svg></button>
+  </div>
+  <section class="companion-panel" id="companion-panel" aria-labelledby="companion-title" hidden>
+    <header class="companion-header">
+      <img src="companion.svg" alt="" width="44" height="41">
+      <div><h2 id="companion-title">Studio companion</h2><p id="companion-topic"></p></div>
+      <button id="companion-close" class="companion-dismiss" type="button" aria-label="Close lesson chat"><svg aria-hidden="true"><use href="icons.svg#close"/></svg></button>
+    </header>
+    <div class="companion-log" id="companion-log" role="log" aria-label="Chat messages" tabindex="0"></div>
+    <div class="companion-actions" id="companion-actions" aria-label="Suggested questions">
+      <button type="button" data-intent="explain">Explain this</button>
+      <button type="button" data-intent="hint">Give me a hint</button>
+      <button type="button" data-intent="next">What’s next?</button>
+    </div>
+    <form class="companion-form" id="companion-form">
+      <label class="sr-only" for="companion-input">Ask about the lesson</label>
+      <input id="companion-input" type="text" placeholder="Ask about the lesson…" maxlength="240" autocomplete="off">
+      <button type="submit" aria-label="Send message"><svg aria-hidden="true"><use href="icons.svg#send-note"/></svg></button>
+    </form>
+    <p class="companion-mode">Demo chat · Replies from the course material</p>
+  </section>
+  <button class="companion-trigger" id="companion-trigger" type="button" aria-label="Open lesson chat" aria-expanded="false" aria-controls="companion-panel">
+    <img src="companion.svg" alt="" width="68" height="64">
+  </button>
+</aside>
+<div role="status" id="toast" class="toast" hidden></div>
+</body>
+</html>
