@@ -92,3 +92,9 @@ Dark glass surfaces, mint for progress, purple for exercises, a single red signa
 ## License
 
 The Iceland font is licensed under the SIL Open Font License 1.1 (`dist/fonts/iceland-OFL.txt`).
+
+---
+
+## ⚠️ DISCLAIMER ⚠️
+
+> ⚠️ **THIS IS A FAKE WEBSITE, CREATED FOR LEARNING PURPOSES TO IMPROVE MY PROMPT ENGINEERING WITH AI. EVERYTHING ABOVE WAS CREATED WITH A SINGLE PROMPT TO CODEX.** ⚠️
